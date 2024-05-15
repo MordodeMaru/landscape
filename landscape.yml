@@ -11,7 +11,7 @@ landscape:
             repo_url: https://github.com/airshipit/treasuremap
             logo: airship.svg
             twitter: https://twitter.com/airshipproject
-            crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+            crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundationgroups
           - item:
             name: Akri
             homepage_url: https://docs.akri.sh
@@ -18392,6 +18392,28 @@ landscape:
                 type: security
                 url: https://github.com/kubernetes/sig-security/tree/main/sig-security-external-audit/security-audit-2021-2022/findings
                 vendor: NCC Group
+    - subcategory:
+      name: Hardened Container Images
+      items:
+        - item:
+          name: Chainguard Images
+          description: Chainguard Images are minimal, hardened container images with low to no CVEs created by Wolfi, a cloud native Linux distro
+          homepage_url: https://chainguard.dev
+          repo_url: https://github.com/chainguard-images
+          logo: Chainguard.svg
+          twitter: https://twitter.com/chainguard_dev
+          crunchbase: https://www.crunchbase.com/organization/chainguard
+          extra:
+            blog_url: https://www.chainguard.dev/unchained
+            slack_url: https://slack.kubernetes.io/
+            youtube_url: https://www.youtube.com/@chainguard
+            clomonitor_name: Chainguard Images
+            audits:
+              - date: '2024-02-06'
+                type: security
+                url: https://security.chainguard.dev/
+                url: https://www.chainguard.dev/unchained/chainguards-trail-of-bits-security-assessment
+                vendor: Trail of Bits             
         - item:
           name: Volcano
           description: Cloud native batch scheduling system for compute-intensive workloads
